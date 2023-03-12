@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test2(failed)" parallel="tests">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="amazonTestCases.TestCases">
+        <methods>
+          <include name="Creation"/>
+          <include name="afterEachTest"/>
+          <include name="afterEachTest"/>
+          <include name="beforeEachTest"/>
+          <include name="tearDown"/>
+          <include name="beforeEachTest"/>
+          <include name="tearDown"/>
+          <include name="Ending"/>
+          <include name="Validate_Emailid_or_MobileNumber_prompt_When_Clicking_on_Buy_Now"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- amazonTestCases.TestCases -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
