@@ -9,7 +9,7 @@ import common.CommonBaseClass;
 
 public class HomePage extends CommonBaseClass {
 
-	String val = "";
+	
 	@FindBy(how = How.XPATH, using = "//a[@id='nav-hamburger-menu']")
     private WebElement hamburgerMenu;
 	

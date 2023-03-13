@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="64146" started-at="2023-03-12T18:50:44Z" finished-at="2023-03-12T18:51:48Z">
+  <suite started-at="2023-03-13T01:59:17Z" name="Suite" finished-at="2023-03-13T02:01:25Z" duration-ms="127914">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="29833" started-at="2023-03-12T18:50:44Z" finished-at="2023-03-12T18:51:14Z">
+    <test started-at="2023-03-13T01:59:17Z" name="Test1" finished-at="2023-03-13T02:00:31Z" duration-ms="73331">
       <class name="amazonTestCases.TestCases">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:amazonTestCases.TestCases@5e3a8624]" name="setup" is-config="true" duration-ms="1744" started-at="2023-03-12T13:50:44Z" finished-at="2023-03-12T13:50:46Z">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:amazonTestCases.TestCases@524d6d96]" started-at="2023-03-12T21:59:17Z" name="setup" finished-at="2023-03-12T21:59:26Z" duration-ms="8757" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,31 +18,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:amazonTestCases.TestCases@5e3a8624]" name="beforeEachTest" is-config="true" duration-ms="1411" started-at="2023-03-12T13:50:46Z" finished-at="2023-03-12T13:50:47Z">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:amazonTestCases.TestCases@524d6d96]" started-at="2023-03-12T21:59:26Z" name="beforeEachTest" finished-at="2023-03-12T21:59:43Z" duration-ms="16820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="Validate_Emailid_or_MobileNumber_prompt_When_Clicking_on_Buy_Now()[pri:0, instance:amazonTestCases.TestCases@5e3a8624]" name="Validate_Emailid_or_MobileNumber_prompt_When_Clicking_on_Buy_Now" duration-ms="26567" started-at="2023-03-12T13:50:47Z" finished-at="2023-03-12T13:51:14Z">
+        <test-method signature="Validate_Emailid_or_MobileNumber_prompt_When_Clicking_on_Buy_Now()[pri:0, instance:amazonTestCases.TestCases@524d6d96]" started-at="2023-03-12T21:59:43Z" name="Validate_Emailid_or_MobileNumber_prompt_When_Clicking_on_Buy_Now" finished-at="2023-03-12T22:00:30Z" duration-ms="46643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_Emailid_or_MobileNumber_prompt_When_Clicking_on_Buy_Now -->
-        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:amazonTestCases.TestCases@5e3a8624]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2023-03-12T13:51:14Z" finished-at="2023-03-12T13:51:14Z">
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:amazonTestCases.TestCases@524d6d96]" started-at="2023-03-12T22:00:30Z" name="afterEachTest" finished-at="2023-03-12T22:00:30Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:amazonTestCases.TestCases@5e3a8624]" name="tearDown" is-config="true" duration-ms="95" started-at="2023-03-12T13:51:14Z" finished-at="2023-03-12T13:51:14Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:amazonTestCases.TestCases@524d6d96]" started-at="2023-03-12T22:00:30Z" name="tearDown" finished-at="2023-03-12T22:00:31Z" duration-ms="1080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- amazonTestCases.TestCases -->
     </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="34282" started-at="2023-03-12T18:51:14Z" finished-at="2023-03-12T18:51:48Z">
+    <test started-at="2023-03-13T02:00:31Z" name="Test2" finished-at="2023-03-13T02:01:25Z" duration-ms="54464">
       <class name="amazonTestCases.TestCases">
-        <test-method status="PASS" signature="Creation()[pri:0, instance:amazonTestCases.TestCases@6eebc39e]" name="Creation" is-config="true" duration-ms="109" started-at="2023-03-12T13:50:44Z" finished-at="2023-03-12T13:50:44Z">
+        <test-method is-config="true" signature="Creation()[pri:0, instance:amazonTestCases.TestCases@1f97cf0d]" started-at="2023-03-12T21:59:17Z" name="Creation" finished-at="2023-03-12T21:59:17Z" duration-ms="533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Creation -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:amazonTestCases.TestCases@6eebc39e]" name="setup" is-config="true" duration-ms="1223" started-at="2023-03-12T13:51:14Z" finished-at="2023-03-12T13:51:15Z">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:amazonTestCases.TestCases@1f97cf0d]" started-at="2023-03-12T22:00:31Z" name="setup" finished-at="2023-03-12T22:00:36Z" duration-ms="4690" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,23 +53,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:amazonTestCases.TestCases@6eebc39e]" name="beforeEachTest" is-config="true" duration-ms="1603" started-at="2023-03-12T13:51:15Z" finished-at="2023-03-12T13:51:17Z">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:amazonTestCases.TestCases@1f97cf0d]" started-at="2023-03-12T22:00:36Z" name="beforeEachTest" finished-at="2023-03-12T22:00:47Z" duration-ms="11303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="Validate_Emailid_or_MobileNumber_prompt_When_Clicking_on_Buy_Now()[pri:0, instance:amazonTestCases.TestCases@6eebc39e]" name="Validate_Emailid_or_MobileNumber_prompt_When_Clicking_on_Buy_Now" duration-ms="31319" started-at="2023-03-12T13:51:17Z" finished-at="2023-03-12T13:51:48Z">
+        <test-method signature="Validate_Emailid_or_MobileNumber_prompt_When_Clicking_on_Buy_Now()[pri:0, instance:amazonTestCases.TestCases@1f97cf0d]" started-at="2023-03-12T22:00:47Z" name="Validate_Emailid_or_MobileNumber_prompt_When_Clicking_on_Buy_Now" finished-at="2023-03-12T22:01:24Z" duration-ms="37401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_Emailid_or_MobileNumber_prompt_When_Clicking_on_Buy_Now -->
-        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:amazonTestCases.TestCases@6eebc39e]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2023-03-12T13:51:48Z" finished-at="2023-03-12T13:51:48Z">
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:amazonTestCases.TestCases@1f97cf0d]" started-at="2023-03-12T22:01:24Z" name="afterEachTest" finished-at="2023-03-12T22:01:24Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:amazonTestCases.TestCases@6eebc39e]" name="tearDown" is-config="true" duration-ms="137" started-at="2023-03-12T13:51:48Z" finished-at="2023-03-12T13:51:48Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:amazonTestCases.TestCases@1f97cf0d]" started-at="2023-03-12T22:01:24Z" name="tearDown" finished-at="2023-03-12T22:01:25Z" duration-ms="1064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="Ending()[pri:0, instance:amazonTestCases.TestCases@6eebc39e]" name="Ending" is-config="true" duration-ms="843" started-at="2023-03-12T13:51:48Z" finished-at="2023-03-12T13:51:49Z">
+        <test-method is-config="true" signature="Ending()[pri:0, instance:amazonTestCases.TestCases@1f97cf0d]" started-at="2023-03-12T22:01:25Z" name="Ending" finished-at="2023-03-12T22:01:27Z" duration-ms="1736" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Ending -->
